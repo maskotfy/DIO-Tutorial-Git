@@ -88,10 +88,12 @@ ps: "work" é um nome que estou atribuindo para que facilite a didática. Renome
 
 obs1: O comando `git add ` é usado para enviar os arquivos que estão no estágio **"_Untracked_"**,  onde o Git não sabe da existência desse arquivo pois acabaram de ser criados, direto para**"_Staged_"**. Ou seja, onde estão sendo preparados para serem aplicados ao **"_commit_"**.
 
-
-
-obs2: Arquivos ***"Unmodified"***, ainda não sofreram modificação, caso altere algo nesse arquivo, ele muda para ***"Modified"*** . A razão disso é que o Git compara o **SHA1** dos arquivos e descobre que sofreu alguma alteração. 
+obs2: O "*" após o `add` é usado para pegar todos os arquivos do diretório e enviar para **"_Staged_"**.
 
 
 
-obs3: A flag `-m` é usada para atribuir uma mensagem ao **commit** criado.
+obs3: Arquivos ***"Unmodified"***, ainda não sofreram modificação, caso altere algo nesse arquivo, ele muda para ***"Modified"*** . A razão disso é que o Git compara o **SHA1** dos arquivos e descobre que sofreu alguma alteração. 
+
+
+
+obs4: A flag `-m` é usada para atribuir uma mensagem ao **commit** criado.
