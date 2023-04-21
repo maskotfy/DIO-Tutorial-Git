@@ -88,6 +88,8 @@ ps: "work" é um nome que estou atribuindo para que facilite a didática. Renome
 
 obs1: O comando `git add ` é usado para enviar os arquivos que estão no estágio **"_Untracked_"**,  onde o Git não sabe da existência desse arquivo pois acabaram de ser criados, direto para**"_Staged_"**. Ou seja, onde estão sendo preparados para serem aplicados ao **"_commit_"**.
 
+
+
 obs2: O "*" após o `add` é usado para pegar todos os arquivos do diretório e enviar para **"_Staged_"**.
 
 
